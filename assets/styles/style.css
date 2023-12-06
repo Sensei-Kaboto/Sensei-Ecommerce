@@ -33,7 +33,7 @@ html{
 /* ---------------------------------- Hero section -------------------------- */
 
 .bg__section{
-    background:linear-gradient(rgba(0, 0, 0, 0.425),rgba(0, 0, 0, 0.425)) ,url('/assets/images/mobile.svg') ;
+    background:linear-gradient(rgba(0, 0, 0, 0.425),rgba(0, 0, 0, 0.425)) ,url('../images/mobile.svg') ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
