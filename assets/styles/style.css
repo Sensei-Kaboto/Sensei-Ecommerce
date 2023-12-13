@@ -8,6 +8,19 @@
     --white:#fff;
     --logo:hsla(0, 0%, 100%, 0.5);
     --Gray__Blue:hsla(220, 26%, 60%, 1);
+    --gray-blue-50: #4D5E80;
+    --black :hsla(0, 0%, 0%, 1);
+    --blue:hsla(227, 100%, 60%, 1);
+    --Bronze:hsla(28, 67%, 48%, 1);
+    --Bronze__dark:hsla(28, 100%, 30%, 1);
+    --grayBlue__45:hsla(220, 29%, 35%, 1);
+    --grayBlue__70:hsla(220, 26%, 60%, 1);
+    --grayBlue__80: hsla(219, 23%, 74%, 1);
+    --grayBlue__85:hsla(221, 22%, 81%, 1);
+    --grayBlue__91:hsla(220, 20%, 89%, 1);
+    --grayBlue__95: hsla(216, 16%, 94%, 1);
+    --green:hsla(126, 67%, 48%, 1);
+    --ProductColor:hsla(30, 41%, 87%, 1);
     
 }
 
@@ -124,7 +137,7 @@ header u{
 
 .btn__hero02{
     position: absolute;
-    left: 120px;
+    left: 130px;
     bottom: -135px;
     border-radius: 30px;
 
@@ -137,7 +150,97 @@ button{
     background-color: var(--white);
     color: var(--Gray__Blue);
     box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}
+
+/* -------------------- Main content ------------------------ */
+main{
+    background: var(--gray-blue-grey-blue-98, #F7F8FA);
+}
+.section__one{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    align-items: flex-start;
+    padding: 0px 15px;
+    gap: 30px;
+
+}
+
+.what__new{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    position: absolute;
+    gap: 10rem;
+}
+.section__one > h1{
+    color: var(--gray-blue-50);
+    font-size: 5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    overflow: hidden;
+    display: none;
+}
+
+.what__newSub01,
+.what__newSub02,
+.btn__whatNew{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.6rem;
+    color: var(--gray-blue-50);
+    font-weight: 700;
+}
+
+.what__newSub01 svg{
+    width: 30px;
+    height: 30px;
     
+}
+
+.what__newSub02 h1{
+    display: none;
+
+}
+
+.btn__whatNew{
+    width: 30px;
+    height: 30px;
+    box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}
+
+.bag__whatNew{
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto;
+    gap: 20px;
+
+}
+
+.bag__what01,
+.bag__what02{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 330px;
+    padding: 40px;
+}
+
+.bag__what01{
+    background-color: var(--ProductColor);
+    color: var(--Bronze);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.bag__what02{
+    display: none;
+}
+
+.section__two{
+    margin-top: 100px;
 }
 
 
