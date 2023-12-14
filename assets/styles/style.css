@@ -45,8 +45,7 @@ html{
 
 /* ---------------------------------- Hero section -------------------------- */
 body{
-    width: 375px;
-    height: 690px;
+    width: 390px;
 
 }
 .bg__section{
@@ -138,7 +137,8 @@ header u{
 .btn__hero02{
     position: absolute;
     left: 130px;
-    bottom: -155px;
+    /* bottom: -155px; */
+    top: 555px;
     border-radius: 30px;
 
 }
@@ -155,9 +155,11 @@ button{
 /* -------------------- Main content ------------------------ */
 main{
     background: var(--gray-blue-grey-blue-98, #F7F8FA);
+    margin:10px;
 }
 .section__one,
-.section__two{
+.section__two,
+.section__three{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -167,17 +169,25 @@ main{
     gap: 30px;
 
 }
+.section__two,
+.section__three{
+    margin-top: 30px;
+}
+
 
 .what__new,
-.bestSellers{
+.bestSellers,
+.looks_instagram{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    /* justify-content:space-between; */
     position: absolute;
-    gap: 10rem;
+    gap: 5rem;
+    margin: 5px auto;
 }
 .section__one > h1,
-.section__two > h1{
+.section__two > h1,
+.section__three > h1{
     color: var(--gray-blue-50);
     font-size: 5rem;
     font-weight: 900;
@@ -191,9 +201,15 @@ main{
 .btn__whatNew{
     display: flex;
     gap: 2rem;
-    font-size: 1.6rem;
     color: var(--gray-blue-50);
     font-weight: 700;
+    margin-right: 30px;
+}
+.what__newSub01 >h1,
+.what__newSub02 >h1,
+.btn__whatNew >h1 {
+    font-size: 1.6rem;
+    margin-top: 5px;
 }
 
 .what__newSub01 svg{
@@ -214,7 +230,8 @@ main{
 }
 
 .bag__whatNew,
-.bag__bestsellers{
+.bag__bestsellers,
+.bag__instagram{
     display: flex;
     flex-direction: column;
     margin-top: 90px;
@@ -284,6 +301,14 @@ main{
     width: 325px;
     margin: 50px 20px;
 }
+#bag__best01 p{
+    background: var(--green);
+}
+
+#bag__best01 h1{
+    color: var(--gray-blue-50);
+    font-size: 1.5rem;
+}
 
 #bag__best02{
     background-color: var(--grayBlue__95);
@@ -291,10 +316,82 @@ main{
     width: 325px;
     margin: 50px 20px;
 }
+#bag__best02 p{
+    background: var(--grayBlue__45);
 
-
-.section__two{
-    margin-top: 30px;
 }
+
+#bag__best02 h1{
+    font-size: 1.5rem;
+    color: var(--gray-blue-50);
+}
+
+.bag__instagram{
+    flex-direction: row;
+    gap: 30px;
+    width: 330px;
+}
+
+.bag__insta img{
+    height: 150px;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+
+.insta__display{
+    display: none;
+}
+.section__three{
+    background-color: var(--gray-blue-grey-blue-98, #F7F8FA);
+}
+
+/* ------------------------------ Footer Section ------------------------------ */
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: var(--gray-blue-grey-blue-98, #F7F8FA);
+    padding: 50px 50px;
+    margin: -20px;
+    align-items: start;
+}
+
+.footer__section01{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer__one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer__nav01 u,
+.footer__nav02 u,
+.footer__nav03 u{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer__nav01 u ul,
+.footer__nav02 u ul,
+.footer__nav03 u ul{
+    color: var(--grayBlue__70);
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+
+.footer__two{
+    display: flex;
+    
+}
+
+
 
 
