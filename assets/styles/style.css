@@ -55,7 +55,7 @@ body{
     background-size: 100%;
     color:var(--white);
     position: relative;
-    /* height: 110vh; */
+    /* height: 140vh; */
     clip-path: ellipse(100% 100% at 50% 0%);
     
     
@@ -110,11 +110,11 @@ header u{
 }
 
 .hero__section h1{
-    margin-top: 90px;
+    margin-top: 110px;
     text-align: center;
-    font-size: 4.8rem;
+    font-size: 5rem;
     font-weight: 700;
-    line-height: 7rem
+    line-height: 7rem;
 
 }
 
@@ -124,7 +124,7 @@ header u{
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    margin-bottom: 130px;
+    margin-bottom: 210px;
 }
 
 
@@ -136,11 +136,10 @@ header u{
 
 .btn__hero02{
     position: absolute;
-    left: 130px;
+    left: 140px;
     /* bottom: -155px; */
-    top: 555px;
+    top: 710px;
     border-radius: 30px;
-
 }
 
 button{
@@ -150,6 +149,7 @@ button{
     background-color: var(--white);
     color: var(--Gray__Blue);
     box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+    height: 60px;
 }
 
 /* -------------------- Main content ------------------------ */
@@ -163,7 +163,7 @@ main{
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-top: 20px;
+    margin-top: 40px;
     align-items:center;
     padding: 0px 15px;
     gap: 30px;
@@ -387,10 +387,63 @@ footer{
 }
 
 
-.footer__two{
+.footer__two u{
     display: flex;
+    flex-direction: column;
+    gap: 20px;
     
 }
+
+.heading__footer{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color:var(--gray-blue-50)
+}
+
+.para__footer p{
+    font-size: 1.3rem;  
+    font-weight: 700;
+    color: var(--grayBlue__80);
+    display: inline;
+}
+
+.footer__section02 {
+    display:flex;
+    flex-direction: column;
+    gap:30px
+
+}
+
+.about u{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--grayBlue__70);
+}
+.about__sub{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.about__sub ul a,
+.contact u ul a{
+    color: var(--grayBlue__70);
+}
+.contact u ul a{
+
+}
+.contact u{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    align-items: center;
+}
+
 
 
 
