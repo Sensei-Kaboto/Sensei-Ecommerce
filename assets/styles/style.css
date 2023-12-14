@@ -138,7 +138,7 @@ header u{
 .btn__hero02{
     position: absolute;
     left: 130px;
-    bottom: -135px;
+    bottom: -155px;
     border-radius: 30px;
 
 }
@@ -156,25 +156,28 @@ button{
 main{
     background: var(--gray-blue-grey-blue-98, #F7F8FA);
 }
-.section__one{
+.section__one,
+.section__two{
     display: flex;
     flex-direction: column;
     position: relative;
     margin-top: 20px;
-    align-items: flex-start;
+    align-items:center;
     padding: 0px 15px;
     gap: 30px;
 
 }
 
-.what__new{
+.what__new,
+.bestSellers{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     position: absolute;
     gap: 10rem;
 }
-.section__one > h1{
+.section__one > h1,
+.section__two > h1{
     color: var(--gray-blue-50);
     font-size: 5rem;
     font-weight: 900;
@@ -210,54 +213,88 @@ main{
     box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
 }
 
-.bag__whatNew{
+.bag__whatNew,
+.bag__bestsellers{
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
+    margin-top: 90px;
     gap: 20px;
 }
 
 .bag__what01,
-.bag__what02{
+.bag__what02,
+.bag__best{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px;
+    position: relative;
+    border-radius: 20px;
+    /* margin-left: 10px; */
 }
 
 .bag__what01{
     background-color: var(--ProductColor);
-    position: relative;
-    border-radius: 20px;
 }
 
-.bag__what01 h1{
+.bag__what01 h1,
+.bag__what02 h1,
+.bag__best h1{
     margin-bottom: 30px;
     color: var(--Bronze);
     font-size: 1.8rem;
     font-weight: 700;
 }
 
-.bag__what01 p{
+.bag__what01 p,
+.bag__what02 p,
+.bag__best p{
     background-color: var(--Bronze);
     height: 40px;
     padding: 10px 20px;
     border-radius: 20px;
     position: absolute;
-    top: 270px;
+    top: 260px;
     color: var(--white);
     text-align: center;
+    align-self: center;
+    font-size: 1.4rem;
+    font-weight: 900;
+    text-align: center;
+    width: 70px;
+}
+
+.bag__what02,
+#bag__best03,
+#bag__best04,
+#bag__best05,
+#bag__best06{
+    display: none;
 }
 
 .color__switch{
     margin-top: 40px;
 }
-.bag__what02{
-    display: none;
+
+
+
+#bag__best01{
+    background-color: var(--grayBlue__91);
+    padding: 30px 0px;
+    width: 325px;
+    margin: 50px 20px;
 }
 
+#bag__best02{
+    background-color: var(--grayBlue__95);
+    padding: 30px 0px;
+    width: 325px;
+    margin: 50px 20px;
+}
+
+
 .section__two{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 
