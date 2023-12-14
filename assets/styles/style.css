@@ -213,9 +213,8 @@ main{
 .bag__whatNew{
     display: flex;
     flex-direction: column;
-    margin: 80px auto;
+    margin-top: 80px;
     gap: 20px;
-
 }
 
 .bag__what01,
@@ -223,18 +222,36 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 330px;
     padding: 40px;
 }
 
 .bag__what01{
     background-color: var(--ProductColor);
-    color: var(--Bronze);
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 30px;
+    position: relative;
+    border-radius: 20px;
 }
 
+.bag__what01 h1{
+    margin-bottom: 30px;
+    color: var(--Bronze);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.bag__what01 p{
+    background-color: var(--Bronze);
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 270px;
+    color: var(--white);
+    text-align: center;
+}
+
+.color__switch{
+    margin-top: 40px;
+}
 .bag__what02{
     display: none;
 }
