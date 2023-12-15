@@ -123,7 +123,7 @@ header u{
 
 .hero__section p{
     text-align: center;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 700;
     margin-bottom: 210px;
@@ -245,7 +245,7 @@ main{
 .bag__best{
     display: flex;
     flex-direction: column;
-    justify-content: centerC;
+    justify-content: center;
     align-items: center;
     padding: 40px;
     position: relative;
@@ -319,12 +319,16 @@ main{
     width: 325px;
     margin: 50px 20px;
 }
-#bag__best02 p{
+#bag__best02 p,
+#bag__best05 p,
+#bag__best06 p{
     background: var(--grayBlue__45);
 
 }
 
-#bag__best02 h1{
+#bag__best02 h1,
+#bag__best05 h1,
+#bag__best06 h1{
     font-size: 1.5rem;
     color: var(--gray-blue-50);
 }
@@ -385,7 +389,6 @@ footer{
 .footer__nav03 u ul{
     color: var(--grayBlue__70);
     font-size: 1.3rem;
-    font-style: normal;
     font-weight: 700;
     line-height: 25px;
 }
@@ -444,8 +447,6 @@ footer{
     font-weight: 700;
     align-items: center;
 }
-
-
 
 
 
@@ -568,7 +569,7 @@ footer{
     .section__one,
     .section__two,
     .section__three{
-        align-items: flex-start;
+        /* align-items: flex-start; */
         padding: 0px 45px;
     }
 
@@ -584,6 +585,7 @@ footer{
     .bag__what02 h1,
     .bag__best h1{
         font-size: 2rem;
+        margin-bottom: 0px;
     }   
     .bag__whatNew{
         flex-direction: row;
@@ -599,7 +601,7 @@ footer{
     }
 
     .bag__what01 p{
-        top: 390px;
+        top: 350px;
     }   
     .bag{
         display: flex;
@@ -610,13 +612,84 @@ footer{
         position: relative;
         border-radius: 20px;
         background: var(--Product-Color-Product-Color-20);
+        gap: 45px;
     }
 
     .bag h1{
         color: var(--gray-blue-50);
         font-size: 2rem;
     }
-    #color__switch{
-        margin-top: 50px;
+    
+    .bag p{
+        height: 40px;
+        padding: 10px 20px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        position: absolute;
+        top: 350px;
+        color: var(--white);
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 900;
+        width: 70px;
+        background-color: var(--gray-blue-50);
+    }
+
+    /* ----------------------- Best sellers ------------------------- */
+    
+    .bagBest__section01,
+    .bagBest__section02{
+        display: flex;
+        margin-top: 70px;
+    }
+
+    .bag__best p{
+        top:260px;
+    }
+    .bagBest__section02{
+        margin-top: 20px;
+    }
+    
+    #bag__best01,
+    #bag__best02,
+    #bag__best03,
+    #bag__best04,
+    #bag__best05,
+    #bag__best06{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: 20px;
+        padding: 40px 0px;
+        width: 325px;
+        margin: 0px 20px;
+        gap: 25px;
+    }
+
+    #bag__best03 h1,
+    #bag__best04 h1,
+    #bag__best05 h1,
+    #bag__best06 h1{
+        font-size: 1.6rem;
+        margin-bottom: 0px;
+    }
+
+    #bag__best03{
+        background: var(--ProductColor);
+    }
+
+    #bag__best04{
+        background: var(--Product-Color-Product-Color-19, #EEEBE6);
+    }
+
+    #bag__best05{
+        background-color: var(--grayBlue__91);
+    }
+
+    #bag__best06{
+        background: var(--Product-Color-Product-Color-19, #EEEBE6);
     }
 }
