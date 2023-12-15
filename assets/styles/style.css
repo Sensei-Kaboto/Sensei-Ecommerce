@@ -21,6 +21,7 @@
     --grayBlue__95: hsla(216, 16%, 94%, 1);
     --green:hsla(126, 67%, 48%, 1);
     --ProductColor:hsla(30, 41%, 87%, 1);
+    --Product-Color-Product-Color-20:#DBE7E0;
     
 }
 
@@ -46,6 +47,7 @@ html{
 /* ---------------------------------- Hero section -------------------------- */
 body{
     width: 390px;
+    /* margin: 0px auto; */
 
 }
 .bg__section{
@@ -243,6 +245,7 @@ main{
 .bag__best{
     display: flex;
     flex-direction: column;
+    justify-content: centerC;
     align-items: center;
     padding: 40px;
     position: relative;
@@ -368,6 +371,7 @@ footer{
     flex-direction: column;
     gap: 20px;
 }
+
 .footer__nav01 u,
 .footer__nav02 u,
 .footer__nav03 u{
@@ -432,9 +436,6 @@ footer{
 .contact u ul a{
     color: var(--grayBlue__70);
 }
-.contact u ul a{
-
-}
 .contact u{
     display: flex;
     flex-direction: row;
@@ -448,3 +449,174 @@ footer{
 
 
 
+/* -------------------------- Destop View ---------------------------------- */
+@media(min-width : 41.1em){
+    body{
+        width: 1200px;
+    }
+
+    /* ---------------------------------- hero section ------------------------------------------------ */
+    .bg__section{
+        background:linear-gradient(rgba(0, 0, 0, 0.425),rgba(0, 0, 0, 0.425)) ,url('/assets/images/Image.svg') ;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+
+    .nav__section{
+        padding: 0px 40px;
+    }
+
+    header u{
+        gap: 3.5rem;
+    }
+
+    .navi__two a,
+    .navi__tree ul,
+    .navi__four ul,
+    .navi__five ul{
+        font-size: 1.4rem;
+        color: var(--white);
+        font-weight: 700;
+    }
+
+
+    .navi__two u{
+        gap: 6rem;
+    }
+
+    .navi__tree u,
+    .navi__four u,
+    .navi__five u{
+        gap:2.1rem ;
+        align-items: flex-start;
+    }
+    .navi__tree ul p,
+    .navi__four ul p,
+    .navi__five ul p{
+        margin-top: .7rem;
+    }
+
+    .navi__two,
+    .navi__tree ul:last-child,
+    .navi__four ul:last-child,
+    .navi__five ul:last-child{
+        display:contents;
+    }
+
+    .bag__what02,
+    #bag__best03,
+    #bag__best04,
+    #bag__best05,
+    #bag__best06{
+        display: contents;
+    }
+
+    .hero__section{
+        gap: 30px;
+    }
+
+    .hero__section h1{
+        margin-top: 200px;
+        font-size: 6.4rem;
+        font-weight: 400;
+        line-height: 9rem;        
+    }
+
+    .hero__section p{
+        margin-bottom: 20px;
+    }
+
+    .btn__hero01{
+        display: contents;
+        display: flex;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 120px;
+
+    }
+
+    .btn__hero01 a{
+        border-radius: 30px;
+        border: 2px  var(--Black-Black, #000);
+        background: var(--Black-Black, #000);
+        color: var(--white);
+        padding: 15px 35px;
+    }
+
+    .btn__hero01 a:nth-of-type(2){
+        background: var(--black-black-50, rgba(0, 0, 0, 0.50));
+    }
+
+    .btn__hero02{
+        left: 550px;
+        top: 650px;
+    }
+
+    /* -------------------- Main Content ---------------------------- */
+    main{
+        background: var(--white);
+        margin: 0px;
+    }
+    .what__newSub02 h1{
+        display: contents;
+    }
+
+    .section__one,
+    .section__two,
+    .section__three{
+        align-items: flex-start;
+        padding: 0px 45px;
+    }
+
+    .what__new,
+    .bestSellers,
+    .looks_instagram{
+        justify-content: space-between;
+        gap: 720px;
+        margin-top: 20px;
+    }
+
+    .bag__what01 h1,
+    .bag__what02 h1,
+    .bag__best h1{
+        font-size: 2rem;
+    }   
+    .bag__whatNew{
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .bag__what01,
+    .bag__what02,
+    .bag__best{
+        padding: 60px;
+        gap: 45px;
+    }
+
+    .bag__what01 p{
+        top: 390px;
+    }   
+    .bag{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 60px;
+        position: relative;
+        border-radius: 20px;
+        background: var(--Product-Color-Product-Color-20);
+    }
+
+    .bag h1{
+        color: var(--gray-blue-50);
+        font-size: 2rem;
+    }
+    #color__switch{
+        margin-top: 50px;
+    }
+}
