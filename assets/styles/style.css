@@ -454,6 +454,7 @@ footer{
 @media(min-width : 41.1em){
     body{
         width: 1200px;
+       
     }
 
     /* ---------------------------------- hero section ------------------------------------------------ */
@@ -559,7 +560,6 @@ footer{
 
     /* -------------------- Main Content ---------------------------- */
     main{
-        background: var(--white);
         margin: 0px;
     }
     .what__newSub02 h1{
@@ -570,7 +570,10 @@ footer{
     .section__two,
     .section__three{
         /* align-items: flex-start; */
+        background-color: var(--gray-blue-grey-blue-98, #F7F8FA);
         padding: 0px 45px;
+        
+
     }
 
     .what__new,
@@ -691,5 +694,69 @@ footer{
 
     #bag__best06{
         background: var(--Product-Color-Product-Color-19, #EEEBE6);
+    }
+
+    /* ------------- instagram ---------------------- */
+    .insta__display{
+        display: contents;
+    }
+
+    .bag__insta img{
+        height: 255px;
+    }
+
+    .bag__instagram{
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    footer{
+        gap: 60px;
+        margin: 0px;
+    }
+
+    .footer__nav01{
+        display: flex;
+        gap: 60px;
+    }
+
+    .home u,
+    .about__foot u,
+    .customer__foot u,
+    .shipping u{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .footer__one{
+        flex-direction: row;
+        gap: 240px;
+    }
+
+
+    .para__footer p{
+        display: block;
+    }
+
+    .footer__nav02{
+        display: flex;
+        justify-content: space-betweens;
+        gap: 80px;
+    }
+
+    .footer__section02{
+        flex-direction: row;
+        gap: 150px;
+    }
+
+    .about u{
+        flex-direction: row;
+        margin-top: 5px;
+    }
+
+    .contact u{
+        /* align-items: normal; */
+        gap: 80px;
     }
 }
