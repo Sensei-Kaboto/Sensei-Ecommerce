@@ -47,7 +47,7 @@ html{
 /* ---------------------------------- Hero section -------------------------- */
 body{
     width: 100%;
-    background-color: var(--gray-blue-grey-blue-98, #F7F8FA);
+    /* background-color: var(--gray-blue-grey-blue-98, #F7F8FA); */
 
     /* margin: 0px auto; */
 
@@ -158,7 +158,7 @@ button{
 
 /* -------------------- Main content ------------------------ */
 main{
-    background: var(--gray-blue-grey-blue-98, #F7F8FA);
+    /* background: var(--gray-blue-grey-blue-98, #F7F8FA); */
     margin:10px;
 }
 .section__one,
@@ -167,15 +167,15 @@ main{
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-top: 40px;
     align-items:center;
     padding: 0px 15px;
     gap: 30px;
+    margin: 50px auto 0px auto;
 
 }
 .section__two,
 .section__three{
-    margin-top: 30px;
+    margin-top:0px;
 }
 
 
@@ -187,6 +187,7 @@ main{
     /* justify-content:space-between; */
     position: absolute;
     gap: 5rem;
+    margin-top: 15px;
 }
 .section__one > h1,
 .section__two > h1,
@@ -196,6 +197,11 @@ main{
     font-weight: 900;
     text-transform: uppercase;
     opacity: 0.03;
+    margin-left: -50px ;
+}
+
+.section__two > h1{
+    margin-left: -30px;
 }
 
 .what__newSub01,
@@ -205,7 +211,7 @@ main{
     gap: 2rem;
     color: var(--gray-blue-50);
     font-weight: 700;
-    margin-right: 30px;
+    margin-right: 25px;
 }
 .what__newSub01 >h1,
 .what__newSub02 >h1,
@@ -236,10 +242,13 @@ main{
 .bag__instagram{
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
+    /* margin-top: 90px; */
     gap: 20px;
 }
 
+#width__insta{
+    width: 140px;
+}
 .bag__what01,
 .bag__what02,
 .bag__best{
@@ -297,12 +306,18 @@ main{
 }
 
 
-
+.bagBest__section01{
+    display: flex;
+    gap: 20px;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
 #bag__best01{
     background-color: var(--grayBlue__91);
     padding: 30px 0px;
     width: 325px;
-    margin: 50px 20px;
+    margin: 0px auto;
 }
 #bag__best01 p{
     background: var(--green);
@@ -317,7 +332,7 @@ main{
     background-color: var(--grayBlue__95);
     padding: 30px 0px;
     width: 325px;
-    margin: 50px 20px;
+    margin: 0px auto;
 }
 #bag__best02 p,
 #bag__best05 p,
@@ -339,8 +354,8 @@ main{
 
 .bag__instagram{
     flex-direction: row;
-    gap: 30px;
-    width: 330px;
+    gap: 20px;
+    /* width: 330px; */
 }
 
 .bag__insta img{
@@ -352,20 +367,20 @@ main{
 .insta__display{
     display: none;
 }
-.section__three{
-    background-color: var(--gray-blue-grey-blue-98, #F7F8FA);
-}
+
 
 /* ------------------------------ Footer Section ------------------------------ */
 footer{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     gap: 30px;
-    background-color: var(--gray-blue-grey-blue-98, #F7F8FA);
-    padding: 50px 50px;
-    margin: -20px;
-    align-items: start;
+    margin-top: 50px;
+    /* background-color: var(--gray-blue-grey-blue-98, #F7F8FA); */
+    /* padding: 50px 50px; */
+    /* margin: -20px; */
+    /* align-items: start; */
 }
 
 .footer__section01{
@@ -377,7 +392,7 @@ footer{
 .footer__one{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 .footer__nav01 u,
@@ -385,7 +400,7 @@ footer{
 .footer__nav03 u{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 15px;
 }
 
 .footer__nav01 u ul,
@@ -421,13 +436,15 @@ footer{
 .footer__section02 {
     display:flex;
     flex-direction: column;
-    gap:30px
+    gap:30px;
+    margin-left: -80px;
 
 }
 
 .about u{
     display: flex;
     flex-direction: column;
+    align-self: flex-start;
     gap: 20px;
     font-size: 1.2rem;
     font-weight: 700;
@@ -449,7 +466,7 @@ footer{
     gap: 60px;
     font-size: 1.2rem;
     font-weight: 700;
-    align-items: center;
+    align-items: flex-start;
 }
 
 
