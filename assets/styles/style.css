@@ -578,7 +578,7 @@ footer{
     .section__two > h1,
     .section__three > h1{
         font-size: 10rem;
-        margin-left: -150px;
+        margin-left: -400px;
         text-align: lefts;
     }
 
@@ -598,9 +598,13 @@ footer{
     .bestSellers,
     .looks_instagram{
         justify-content: space-between;
-        gap: 370px;
+        gap: 500px;
         margin-top: 50px;
         
+    }
+
+    #width__insta{
+        width: 140px;
     }
     .bag__whatNew,
     .bag__bestsellers,
@@ -673,7 +677,7 @@ footer{
 
     }
     .section__two > h1{
-        margin-left: -100px;
+        margin-right: -60px;
     }
 
     .bag__Bestsellers{
