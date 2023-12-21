@@ -453,7 +453,7 @@ footer{
 
 
 /* -------------------------- Destop View ---------------------------------- */
-@media(min-width:990px) {
+@media(min-width:90rem) {
     body{
         width: 100%;
         background-color: var(--gray-blue-grey-blue-98, #F7F8FA);
@@ -543,6 +543,7 @@ footer{
         align-items: center;
         gap: 10px;
         margin-bottom: 120px;
+        font-size: 1.4rem;
 
     }
 
@@ -721,7 +722,7 @@ footer{
     #bag__best04 h1,
     #bag__best05 h1,
     #bag__best06 h1{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         margin-bottom: 0px;
     }
 
@@ -765,6 +766,370 @@ footer{
     .footer__nav01{
         display: flex;
         gap: 60px;
+    }
+
+    .home u,
+    .about__foot u,
+    .customer__foot u,
+    .shipping u{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .footer__one{
+        flex-direction: row;
+        gap: 175px;
+    }
+
+
+    .para__footer p{
+        display: block;
+    }
+
+    .footer__nav02{
+        display: flex;
+        justify-content: space-betweens;
+        gap: 80px;
+    }
+
+    .footer__section02{
+        flex-direction: row;
+        gap: 150px;
+    }
+
+    .about u{
+        flex-direction: row;
+        margin-top: 5px;
+        margin-left: -230px;
+    }
+
+    .contact u{
+        /* align-items: normal; */
+        gap: 80px;
+    }
+}
+
+/* --------------------------------- Tablet view --------------------------------- */
+@media(min-width:40.7em) and (max-width:90em){
+    body{
+        width: 100%;
+        background-color: var(--gray-blue-grey-blue-98, #F7F8FA);
+    }
+
+    /* ---------------- hero section --------------------------- */
+    .bg__section{
+        background:linear-gradient(rgba(0, 0, 0, 0.425),rgba(0, 0, 0, 0.425)) ,url('/assets/images/mobile.svg');
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .nav__section{
+        padding: 0px 40px;
+    }
+
+    header u{
+        gap: 2rem;
+    }
+
+    .navi__two a,
+    .navi__tree ul,
+    .navi__four ul,
+    .navi__five ul{
+        font-size: 1.4rem;
+        color: var(--white);
+        font-weight: 700;
+    }
+    
+    .navi__two{
+        gap:4rem;
+    }
+    
+    .navi__tree u,
+    .navi__four u,
+    .navi__five u{
+        gap:1.8rem ;
+        align-items: flex-start;
+    }
+
+    .navi__tree ul p,
+    .navi__four ul p,
+    .navi__five ul p{
+        margin-top: .9rem;
+    }
+
+    .navi__two,
+    .navi__tree ul:last-child,
+    .navi__four ul:last-child,
+    .navi__five ul:last-child{
+        display:contents;
+    }
+
+    .navi__one ul:last-child{
+        margin-top: .4rem;
+    }
+
+    .hero__section{
+        gap: 30px;
+    }
+
+    .ligne{
+        margin-top: 10px;
+    }
+
+    .hero__section h1{
+        margin-top: 100px;
+        font-size: 6.4rem;
+        font-weight: 400;
+        line-height: 9rem;        
+    }
+
+    .hero__section p{
+        margin-bottom: 50px;
+    }
+
+    .btn__hero01{
+        display: contents;
+        display: flex;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 120px;
+        font-size: 1.4rem;
+
+    }
+
+    .btn__hero01 a{
+        border-radius: 30px;
+        border: 2px  var(--Black-Black, #000);
+        background: var(--Black-Black, #000);
+        color: var(--white);
+        padding: 15px 35px;
+    }
+
+    .btn__hero01 a:nth-of-type(2){
+        background: var(--black-black-50, rgba(0, 0, 0, 0.50));
+    }
+
+    .btn__hero02{
+        left: 45%;
+        top: 590px;
+    }
+
+    .bag__what02,
+    #bag__best03,
+    #bag__best04,
+    #bag__best05,
+    #bag__best06{
+        display: contents;
+    }
+
+    /* ------------------- main Content ---------------------------- */
+    main{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .what__newSub02 h1{
+        display: contents;
+        display: flex;
+    }
+
+    .section__one > h1,
+    .section__two > h1,
+    .section__three > h1{
+        font-size: 8rem;
+        margin-left: -400px;
+        text-align: lefts;
+    }
+    
+    .section__one,
+    .section__two,
+    .section__three{
+        background-color: var(--gray-blue-grey-blue-98, #F7F8FA);
+
+    }
+    .section__one{
+        margin-top: 50px;
+    }
+    .what__new,
+    .bestSellers,
+    .looks_instagram{
+        justify-content: space-between;
+        gap: 400px;
+        margin-top: 35px;
+        flex-grow: 1;
+        
+    }
+
+    #width__insta{
+        width: 140px;
+    }
+    .bag__whatNew,
+    .bag__bestsellers,
+    .bag__instagram{
+        margin-top: -30px;
+    }
+
+    .bag__what01 h1,
+    .bag__what02 h1,
+    .bag__best h1{
+        font-size: 1.8rem;
+        margin-bottom: 0px;
+    } 
+    
+    .bag__whatNew{
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+    }   
+
+    .bag__what01,
+    .bag__what02,
+    .bag__best{
+        padding: 40px;
+        gap: 35px;
+    }
+    
+    .bag__what01{
+        padding: 40px 100px;
+        gap: 25px;
+    }
+
+    .bag{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 110px;
+        position: relative;
+        border-radius: 15px;
+        background: var(--Product-Color-Product-Color-20);
+        gap: 25px;
+        
+    }
+    .bag h1{
+        color: var(--gray-blue-50);
+        font-size: 1.8rem;
+    }
+    
+    .bag p{
+        height: 40px;
+        padding: 10px 20px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        position: absolute;
+        top: 270px;
+        color: var(--white);
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 900;
+        width: 70px;
+        background-color: var(--gray-blue-50);
+    }
+    .bag__what01 p, 
+    .bag__what02 p, 
+    .bag__best p{
+        border-radius: 15px;
+    }
+
+    /* ----------------------------- Best  Sellers  ---------------------------------------------------- */
+    .section__two{
+        margin-top: -30px;
+
+    }
+    .section__two > h1{
+        margin-right: -60px;
+    }
+    .bag__Bestsellers{
+        margin-top: 0px;
+        /* margin: 0px auto; */
+        justify-content: flex-start;
+    }
+    .bagBest__section01,
+    .bagBest__section02{
+        display: flex;
+        /* align-items: flex-start; */
+        margin-top: -30px;
+    }
+
+    .bag__best p{
+        top:260px;
+    }
+    .bagBest__section02{
+        margin-top: 20px;
+    }
+     
+    #bag__best01,
+    #bag__best02,
+    #bag__best03,
+    #bag__best04,
+    #bag__best05,
+    #bag__best06{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: 20px;
+        padding: 30px 0px;
+        width: 280px;
+        margin: 0px 20px;
+        gap: 25px;
+    }
+
+    #bag__best03 h1,
+    #bag__best04 h1,
+    #bag__best05 h1,
+    #bag__best06 h1{
+        font-size: 1.6rem;
+        margin-bottom: 0px;
+    }
+    #bag__best03{
+        background: var(--ProductColor);
+    }
+
+    #bag__best04{
+        background: var(--Product-Color-Product-Color-19, #EEEBE6);
+    }
+
+    #bag__best05{
+        background-color: var(--grayBlue__91);
+    }
+
+    #bag__best06{
+        background: var(--Product-Color-Product-Color-19, #EEEBE6);
+    }
+
+    /* ---------------------------- Instagram ----------------------------------- */
+    .insta__display{
+        display: contents;
+    }
+
+    .bag__insta img{
+        height: 210px;
+    }
+
+    .bag__instagram{
+        justify-content: center;
+        width: 250px;
+    }
+
+    /* ------------------------ Footer ----------------------------- */
+    footer{
+        gap: 50px;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__nav01{
+        display: flex;
+        gap: 15px;
     }
 
     .home u,
