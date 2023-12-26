@@ -858,10 +858,11 @@ footer{
 
     /* ---------------- hero section --------------------------- */
     .bg__section{
-        background:linear-gradient(rgba(0, 0, 0, 0.425),rgba(0, 0, 0, 0.425)) ,url('/assets/images/mobile.svg');
+        background:linear-gradient(rgba(0, 0, 0, 0.425),rgba(0, 0, 0, 0.425)) ,url('/assets/images/Image.svg');
         background-position:center;
         background-repeat: no-repeat;
         background-size: 100%;
+        width: 900px;
     }
 
     .nav__section{
@@ -869,7 +870,7 @@ footer{
     }
 
     header u{
-        gap: 2rem;
+        gap: 1.7rem;
     }
 
     .navi__two a,
@@ -882,13 +883,13 @@ footer{
     }
     
     .navi__two{
-        gap:4rem;
+        gap:3rem;
     }
     
     .navi__tree u,
     .navi__four u,
     .navi__five u{
-        gap:1.8rem ;
+        gap:1.1rem ;
         align-items: flex-start;
     }
 
@@ -971,6 +972,7 @@ footer{
         display: flex;
         flex-direction: column;
         gap: 30px;
+        
     }
     .what__newSub02 h1{
         display: contents;
@@ -1117,7 +1119,7 @@ footer{
         border-radius: 20px;
         padding: 30px 0px;
         width: 280px;
-        margin: 0px 20px;
+        /* margin: 0px 20px; */
         gap: 25px;
     }
 
