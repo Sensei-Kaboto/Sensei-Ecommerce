@@ -172,6 +172,7 @@ main{
     gap: 30px;
     margin: 50px auto 0px auto;
 
+
 }
 .section__two,
 .section__three{
@@ -474,6 +475,10 @@ footer{
     margin-top: 7px;
 }
 
+.w-img{
+    width: 100px;
+    height: 125px;
+}
 
 
 /* -------------------------- Destop View ---------------------------------- */
@@ -862,8 +867,8 @@ footer{
         background-position:center;
         background-repeat: no-repeat;
         background-size: 100%;
-        width: 900px;
     }
+
 
     .nav__section{
         padding: 0px 40px;
@@ -968,10 +973,7 @@ footer{
 
     /* ------------------- main Content ---------------------------- */
     main{
-        margin: 0px;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
+        margin: 0px auto;
         
     }
     .what__newSub02 h1{
@@ -1152,7 +1154,7 @@ footer{
     }
 
     .bag__insta img{
-        height: 210px;
+        height: 200px;
     }
 
     .bag__instagram{
